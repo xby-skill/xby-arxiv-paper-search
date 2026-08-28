@@ -1,0 +1,42 @@
+{
+  "name": "xby-arxiv-paper-search",
+  "version": "1.0.0",
+  "description": "一个基于arXiv的论文检索与内容解析工具，支持论文搜索、PDF链接获取和内容解析功能，适用于学术研究和AI领域的最新论文获取。",
+  "keywords": [
+    "xby-arxiv-paper-search",
+    "xby",
+    "arxiv",
+    "paper",
+    "search",
+    "论文",
+    "检索",
+    "与",
+    "解析",
+    "工具"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "files": [
+    "dist",
+    "cordis.patch.yml"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xby_skill/xby-arxiv-paper-search.git"
+  },
+  "homepage": "",
+  "bugs": {
+    "url": "https://github.com/xby_skill/xby-arxiv-paper-search/issues"
+  },
+  "author": "",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
