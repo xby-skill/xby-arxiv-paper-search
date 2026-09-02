@@ -169,6 +169,7 @@ export function apply(ctx, config) {
             paperInfo: {
                 type: 'object',
                 description: '论文信息（可选，用于添加论文元数据）',
+                additionalProperties: true,
             },
         },
         output: {

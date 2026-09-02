@@ -188,6 +188,7 @@ export function apply(ctx: Context, config?: Record<string, any>) {
       paperInfo: {
           type: 'object',
           description: '论文信息（可选，用于添加论文元数据）',
+additionalProperties: true,
         },
       },
       output: {
